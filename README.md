@@ -1,7 +1,6 @@
 # Engenheiro-de-Qualidade-de-Software-Junior-Teste-Pratico
 
 
-Engenheiro de Qualidade de Software Júnior – Teste Prático
 
 Questão 1
 
@@ -16,6 +15,8 @@ Questão 1
   Por que? 
   Para que ao comprar o produto, o usuário receba o produto correto.
 
+
+
 •	Cenário 2 – Validar alteração de cor do produto no carrinho.
 
   Quem? 
@@ -27,16 +28,19 @@ Questão 1
   Por que?
   Para que quando o usuário receber o produto, seja da cor correta.
 
+
+
 •	Cenário 3 – Validar página de checkout.
 
   Quem?
   Como Dono do Produto.
 
   O que?
-  Quero que ao pesquisar o produto me aparece o produto correto da pesquisa, ao selecionar o produto quero poder alterar a cor e a quantidade, adicioná-lo no carrinho e confirmar que a soma do valor dos produtos estejam corretas na página de checkout.
+  Quero que ao pesquisar o produto me aparece o produto correto da pesquisa, ao selecionar o produto quero poder alterar a cor e a quantidade, adicioná-lo no carrinho   e confirmar que a soma do valor dos produtos estejam corretas na página de checkout.
 
   Por que?
   Para que o banco de automação atualize a quantidade do produto de acordo com a cor escolhida. 
+
 
 
 •	Cenário 4 – Remover o produto do carrinho de compras
