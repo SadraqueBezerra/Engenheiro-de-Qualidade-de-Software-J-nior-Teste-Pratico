@@ -1,3 +1,13 @@
+/*
+o	Acessar o site https://advantageonlineshopping.com
+o	No menu, clicar na opção “Special Offer”
+o	Clicar no botão “See offer”
+o	Clicar no botão “Add to cart”
+o	Clicar no carrinho de compras
+o	Remover produto do carrinho de compras
+o	Validar que o carrinho de compras está vazio
+*/
+
 package main.java.cenario4;
 
 import static org.junit.Assert.assertEquals;
@@ -41,7 +51,7 @@ public class TestCenario4 {
 		
 		driver.get(url2);
 		
-		//Clicando no bot�o Add to cart.
+		//Clicando no botão Add to cart.
 		driver.findElement(By.cssSelector("div[class='fixedBtn']")).click();
 		
 		//Clicando no carrinho de compras.
@@ -50,7 +60,7 @@ public class TestCenario4 {
 		//Removendo produto do carrinho.
 		driver.findElement(By.cssSelector("a.remove.red.ng-scope")).click();
 		
-		//Validando que o carrinho de compras est� vazio.
+		//Validando que o carrinho de compras está vazio.
 		String validarAlteracaoDeCor = "Your shopping cart is empty";
 				
 		assertEquals(validarAlteracaoDeCor, driver.findElement(By.cssSelector("label.roboto-bold.ng-scope")).getText());
