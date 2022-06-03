@@ -1,3 +1,14 @@
+/*
+o	Acessar o site https://advantageonlineshopping.com
+o	Pesquisar o produto clicando no ícone de lupa (Seguir o nome do produto do banco de automação)
+o	Selecionar produto pesquisado
+o	Alterar a cor do produto
+o	Alterar a quantidade de produtos que deseja comprar
+o	Clicar no botão “Add to cart”
+o	Acessar a página de checkout
+o	Validar que a soma dos preços corresponde ao total apresentado na página de checkout
+*/
+
 package main.java.cenario3;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -18,7 +29,7 @@ public class TestCenario3 {
 	WebDriver driver;
 
 	@Test
-	public void validarEspecifica��esProduto() {
+	public void validarEspecificaçõesProduto() {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\scorr\\OneDrive\\Documentos\\Caminho\\chromedriver.exe");
 		
 	}	
@@ -59,7 +70,7 @@ public class TestCenario3 {
 	
 	driver.findElement(By.id("checkOutPopUp")).click();
 	
-	//Validando a soma dos pre�os na p�gina de Checkout
+	//Validando a soma dos preços na página de Checkout
 	
 	String somaPreco = "$899.98";
 	
