@@ -1,3 +1,10 @@
+/*
+o	Acessar o site https://advantageonlineshopping.com
+o	No menu, clicar na opção “Special Offer”
+o	Clicar no botão “See offer”
+o	Validar que as especificações do produto.
+*/
+
 package main.java.cenario1;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -34,7 +41,7 @@ public class TestCenario1 {
 	}
 	
 	@Test
-	public void validarEspecifica��esProduto() {
+	public void validarEspecificaçõesProduto() {
 		driver.get(url);
 		
 		String url2 = "https://advantageonlineshopping.com/#/product/3";
@@ -42,7 +49,7 @@ public class TestCenario1 {
 		driver.get(url2);
 		
 		
-		//Validando especifica��es do produto
+		//Validando especificações do produto
 		
 		String especificacaoProduto = "HP PAVILION 15Z TOUCH LAPTOP";
 				
