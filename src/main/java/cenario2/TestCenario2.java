@@ -1,3 +1,12 @@
+/*
+o	Acessar o site https://advantageonlineshopping.com
+o	No menu, clicar na opção “Special Offer”
+o	Clicar no botão “See offer”
+o	Alterar a cor do produto
+o	Clicar no botão “Add to cart”
+o	Validar que produto foi adicionado ao carrinho com a cor selecionada
+*/
+
 package main.java.cenario2;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -47,7 +56,7 @@ public class TestCenario2 {
 		
 		driver.findElement(By.id("shoppingCartLink")).click();
 		
-		//Validando especifica��es do produto
+		//Validando especificações do produto
 		String validarAlteracaoDeCor = "BLACK";
 				
 		assertEquals(validarAlteracaoDeCor, driver.findElement(By.cssSelector("span.style=\"background-color: rgb(65, 65, 65); border: 0px none white;\"")).getText());
